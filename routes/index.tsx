@@ -11,7 +11,9 @@ export default function Home() {
         height="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
-      <a href="https://manas.deno.dev/about">About me</a>
+      <a class={tw`py-4 px-4`} href="https://manas.deno.dev/about">
+        About me
+      </a>
       <p class={tw`my-6`}>
         Welcome to `fresh`. Try update this message in the ./routes/index.tsx
         file, and refresh.
