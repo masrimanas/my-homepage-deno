@@ -11,6 +11,8 @@ export default function Home() {
         height="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
+      <h1>Masri Manas</h1>
+      <h2>Flutter Developer</h2>
       <p class={tw`my-6`}>
         I am a former English Teacher who is currently trying to pursue my
         childhood dream to become a programmer.
