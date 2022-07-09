@@ -6,7 +6,7 @@ import { tw } from '@twind';
 export default function Home() {
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`}>
-      <a href="https://manas.deno.dev/">
+      <a href="/">
         <img
           src="/logo.svg"
           height="100px"

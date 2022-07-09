@@ -11,11 +11,10 @@ export default function Home() {
         height="100px"
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
-      <a class={tw`my-8`} href="https://manas.deno.dev/about">
+      <a class={tw`my-8`} href="/about">
         About me
       </a>
       <p class={tw`my-6`}>A simple homepage.</p>
-      <Counter start={3} />
     </div>
   );
 }
