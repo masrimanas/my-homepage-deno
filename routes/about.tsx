@@ -6,11 +6,13 @@ import { tw } from '@twind';
 export default function Home() {
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`}>
-      <img
-        src="/logo.svg"
-        height="100px"
-        alt="the fresh logo: a sliced lemon dripping with juice"
-      />
+      <a href="https://manas.deno.dev/">
+        <img
+          src="/logo.svg"
+          height="100px"
+          alt="the fresh logo: a sliced lemon dripping with juice"
+        />
+      </a>
       <h1 class={tw`font-bold`}>Masri Manas</h1>
       <h2 class={tw`font-semibold`}>Flutter Developer</h2>
       <p class={tw`my-6`}>
