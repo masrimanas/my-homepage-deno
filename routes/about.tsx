@@ -5,9 +5,10 @@ import { tw } from '@twind';
 
 export default function Home() {
   return (
-    <div class={tw`p-4 mx-auto max-w-screen-md`}>
+    <div class={tw`p-4 mx-auto max-w-screen-md bg-blue-50 h-screen`}>
       <a href="/">
         <img
+          class={tw`object-center object-none w-full h-32 m-2`}
           src="/logo.svg"
           height="100px"
           alt="the fresh logo: a sliced lemon dripping with juice"
