@@ -14,10 +14,7 @@ export default function Home() {
       <a class={tw`my-8`} href="https://manas.deno.dev/about">
         About me
       </a>
-      <p class={tw`my-6`}>
-        Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh.
-      </p>
+      <p class={tw`my-6`}>A simple homepage.</p>
       <Counter start={3} />
     </div>
   );
