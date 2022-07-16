@@ -15,7 +15,7 @@ export default function About() {
         />
       </a>
       <h1 class={tw`font-bold`}>Ayatul Ikhsan</h1>
-      <h2 class={tw`font-semibold`}>Flutter Developer</h2>
+      <h2 class={tw`font-semibold`}>Front-End Developer</h2>
       <p class={tw`my-6`}>
         I am a former English Teacher who is currently trying to pursue my
         childhood dream to become a programmer.
