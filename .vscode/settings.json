@@ -3,5 +3,6 @@
   "deno.lint": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "denoland.vscode-deno",
-  "deno.unstable": true
+  "deno.unstable": true,
+  "deno.path": "/opt/homebrew/bin/deno"
 }
